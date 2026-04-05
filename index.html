@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Scene Editor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@18.2.0?dev",
+          "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime?dev",
+          "react-dom/client": "https://esm.sh/react-dom@18.2.0/client?dev&deps=react@18.2.0",
+          "lucide-react": "https://esm.sh/lucide-react@0.454.0?dev&deps=react@18.2.0",
+          "three": "https://esm.sh/three@0.160.0?dev",
+          "@react-three/fiber": "https://esm.sh/@react-three/fiber@8.15.16?dev&deps=three@0.160.0,react@18.2.0",
+          "@react-three/drei": "https://esm.sh/@react-three/drei@9.99.0?dev&deps=three@0.160.0,react@18.2.0,@react-three/fiber@8.15.16",
+          "uuid": "https://esm.sh/uuid@9.0.1?dev"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="./src/index.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel" data-type="module" src="./src/main.tsx"></script>
+  </body>
+</html>

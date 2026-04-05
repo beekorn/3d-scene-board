@@ -1,0 +1,3 @@
+@echo off
+echo Starting 3d-scene-board via Test Hub...
+start "" "http://localhost:3000/project-files/3d-scene-board/"
