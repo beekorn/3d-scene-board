@@ -116,3 +116,4 @@ interface SceneObject {
     - **Color Tint**: Choose from a palette of preset colors or use the custom color picker for any color imaginable.
     - **Material**: Change the object's surface appearance (Standard, Wood, Metal, Fabric, Glass, Wireframe).
     - **Texture Grain**: For textured materials, this slider controls the tiling size of the texture, from coarse (low value) to fine (high value).
+Auto-deploy fix
